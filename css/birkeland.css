@@ -323,3 +323,42 @@ ul.nice-menu-right a, ul.nice-menu-right ul a {
   background-color: #FFF;
 color: #000;
 }
+
+/* Birkeland */
+
+body {
+  background: #493648; /* Old browsers */
+  background: -moz-linear-gradient(top,  #493648 0%, #2d212c 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#493648), color-stop(100%,#2d212c)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #493648 0%,#2d212c 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #493648 0%,#2d212c 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #493648 0%,#2d212c 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #493648 0%,#2d212c 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#493648', endColorstr='#2d212c',GradientType=0 ); /* IE6-9 */
+}
+
+#header-container,
+#page  {
+  background: none;
+}
+
+#footer {
+  background: none;
+}
+#header-container {
+  color: #fff;
+}
+
+.region-sidebar-first,
+.region-sidebar-second {
+  font-size: .8em;
+  line-height: 1.1em;
+  background:#fff;
+}
+
+#menu-bar, #menu-bar ul.nice-menu li a:active,
+#menu-bar ul.nice-menu li a:hover,
+#menu-bar ul.nice-menu li a.active,
+#menu-bar ul.nice-menu li.active-trail a {
+  background: none;
+}
