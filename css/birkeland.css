@@ -390,3 +390,11 @@ ul.nice-menu {
 ul.nice-menu li a {
   color: #fff;
 }
+
+.field-type-text-with-summary tr {
+  border-bottom: solid 2px silver;
+}
+
+#birk-colophon .logo {
+  float: left;
+}
