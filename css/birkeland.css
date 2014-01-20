@@ -364,3 +364,9 @@ body {
 #menu-bar ul.nice-menu li.active-trail a {
   background: none;
 }
+
+.region-header-first, #boxes-box-site_logo {
+    margin-bottom: -6px;
+    margin-left: -10px;
+    width: 220px;
+}
