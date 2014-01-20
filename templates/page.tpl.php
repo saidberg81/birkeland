@@ -165,17 +165,19 @@
   		<p>The Birkeland Centre for Space and Science, 
   			is a cooperative effort between the University of Bergen, NTNU and UNIS</p>
   	</div>
-  	<div class="logo">
-  		<img src="/<?php echo  drupal_get_path('theme', 'birkeland');?>/images/logo-ncoe.png" />
-  	</div>
-  	<div class="logo">
-  		<img src="/<?php echo  drupal_get_path('theme', 'birkeland');?>/images/logo-uib.png" />
-  	</div>
-  	<div class="logo">
-  		<img src="/<?php echo  drupal_get_path('theme', 'birkeland');?>/images/logo-unis.png" />
-  	</div>
-  	 <div class="logo">
-  		<img src="/<?php echo  drupal_get_path('theme', 'birkeland');?>/images/ntnulogo.png" />
+  	<div id="bottom-logos">
+	  	<div class="logo">
+	  		<img src="/<?php echo  drupal_get_path('theme', 'birkeland');?>/images/logo-ncoe.png" />
+	  	</div>
+	  	<div class="logo">
+	  		<img src="/<?php echo  drupal_get_path('theme', 'birkeland');?>/images/logo-uib.png" />
+	  	</div>
+	  	<div class="logo">
+	  		<img src="/<?php echo  drupal_get_path('theme', 'birkeland');?>/images/logo-unis.png" />
+	  	</div>
+	  	 <div class="logo">
+	  		<img src="/<?php echo  drupal_get_path('theme', 'birkeland');?>/images/ntnulogo.png" />
+	  	</div>
   	</div>
   </div>
   <div id="powerby-login">
