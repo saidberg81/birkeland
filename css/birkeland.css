@@ -355,7 +355,19 @@ body {
 .region-sidebar-second {
   font-size: .8em;
   line-height: 1.1em;
+}
+
+.region-sidebar-second {
   background:#fff;
+}
+
+.region-sidebar-first {
+  background: #f6f5f7;
+  color: #231f20;
+}
+
+.region-sidebar-first a {
+  color: #7e4d97;
 }
 
 #menu-bar, #menu-bar ul.nice-menu li a:active,
@@ -369,4 +381,12 @@ body {
     margin-bottom: -6px;
     margin-left: -10px;
     width: 220px;
+}
+
+ul.nice-menu {
+  padding-top: 31px;
+}
+
+ul.nice-menu li a {
+  color: #fff;
 }
