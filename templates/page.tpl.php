@@ -157,6 +157,27 @@
 		
 		<!--footer region end-->
   <?php endif; ?>
+  <div id="birk-colophon">
+  	<div id="dep-info">
+  		<p>Department of Physics and Technology, University of Bergen</p>
+  	</div>
+  	<div id="birk-info">
+  		<p>The Birkeland Centre for Space and Science, 
+  			is a cooperative effort between the University of Bergen, NTNU and UNIS</p>
+  	</div>
+  	<div class="logo">
+  		<img src="/<?php echo  drupal_get_path('theme', 'birkeland');?>/images/logo-ncoe.png" />
+  	</div>
+  	<div class="logo">
+  		<img src="/<?php echo  drupal_get_path('theme', 'birkeland');?>/images/logo-uib.png" />
+  	</div>
+  	<div class="logo">
+  		<img src="/<?php echo  drupal_get_path('theme', 'birkeland');?>/images/logo-unis.png" />
+  	</div>
+  	 <div class="logo">
+  		<img src="/<?php echo  drupal_get_path('theme', 'birkeland');?>/images/ntnulogo.png" />
+  	</div>
+  </div>
   <div id="powerby-login">
   	<?php if (isset($login_link)) {
     print render($login_link); 
