@@ -397,4 +397,19 @@ ul.nice-menu li a {
 
 #birk-colophon .logo {
   float: left;
+  padding: 0 5px 0 5px;
+}
+
+#dep-info, #birk-info {
+  color: #868588;
+  width: 220px;
+  float: left;
+}
+
+#dep-info {
+  padding: 0 20px 0 0;
+}
+
+#bottom-logos {
+  float: right;
 }
