@@ -325,20 +325,14 @@ color: #000;
 
 /* Birkeland */
 html {
-  background: #764b8d; /* Old browsers */
-  background: -moz-linear-gradient(top,  #764b8d 0%, #242122 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#764b8d), color-stop(100%,#242122)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #764b8d 0%,#242122 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #764b8d 0%,#242122 100%) /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #764b8d 0%,#242122 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  #764b8d 0%,#242122 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#764b8d', endColorstr='#242122',GradientType=0 ); /* IE6-9 */
-  background-attachment: fixed;
+  background-image: url('../images/gradient-bg.png');
+  background-repeat: repeat-x;
 }
 
 body {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  background-image: url('../images/graphic-bg.png');
+  background-repeat: no-repeat;
+  background-position: 1100px 0px;
 }
 
 #header-container,
@@ -347,7 +341,9 @@ body {
 }
 
 #footer {
-  background: none;
+  background: #333;
+  opacity: .8;
+  padding: 10px;
 }
 #header-container {
   color: #fff;
@@ -366,6 +362,11 @@ body {
 .region-sidebar-first {
   background: #f6f5f7;
   color: #231f20;
+  width: 220px;
+}
+
+.region-sidebar-first .block-title {
+  display: none;
 }
 
 .region-sidebar-first a {
@@ -394,7 +395,7 @@ ul.nice-menu li a {
 }
 
 .field-type-text-with-summary tr {
-  border-bottom: solid 2px silver;
+  border-bottom: solid 1px #4A4A4A;
 }
 
 #birk-colophon .logo {
