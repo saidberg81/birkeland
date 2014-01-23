@@ -332,7 +332,7 @@ html {
 body {
   background-image: url('../images/graphic-bg.png');
   background-repeat: no-repeat;
-  background-position: 1100px 0px;
+  background-position: 90% 0px;
 }
 
 #header-container,
