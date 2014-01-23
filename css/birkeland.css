@@ -3,7 +3,7 @@
 /* D6 retro css for older themes */
 #columns {padding:0 10px;}
 
-body,
+
 #header-container, 
 #footer,
 #page {
@@ -324,19 +324,21 @@ color: #000;
 }
 
 /* Birkeland */
-
-body {
-/*  background-image: url(../images/bg.png);
-  background-repeat: repeat-x;
-  background-position: 10px 300px;*/
+html {
   background: #764b8d; /* Old browsers */
-  background: -moz-linear-gradient(top,  #764b8d 0%, #242122 100%) fixed; /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#764b8d), color-stop(100%,#242122))fixed; /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #764b8d 0%,#242122 100%)fixed; /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #764b8d 0%,#242122 100%)fixed; /* Opera 11.10+ */
+  background: -moz-linear-gradient(top,  #764b8d 0%, #242122 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#764b8d), color-stop(100%,#242122)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #764b8d 0%,#242122 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #764b8d 0%,#242122 100%) /* Opera 11.10+ */
   background: -ms-linear-gradient(top,  #764b8d 0%,#242122 100%); /* IE10+ */
   background: linear-gradient(to bottom,  #764b8d 0%,#242122 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#764b8d', endColorstr='#242122',GradientType=0 ); /* IE6-9 */
+  background-attachment: fixed;
+}
+
+body {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 #header-container,
