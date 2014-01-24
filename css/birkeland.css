@@ -95,13 +95,6 @@ margin-bottom: -2000px;
 padding-bottom: 2000px;
 }
 
-
-
-#footer {
-  padding-top: 14px;
-  padding-bottom: 45px;
-   }
-
 body.no-sidebars #page  {
   background:#fff;
   }
@@ -325,6 +318,7 @@ color: #000;
 
 /* Birkeland */
 html {
+  background-color: #231f20;
   background-image: url('../images/gradient-bg.png');
   background-repeat: repeat-x;
 }
@@ -343,7 +337,7 @@ body {
 #footer {
   background: #333;
   opacity: .8;
-  padding: 10px;
+  padding: 20px 10px 10px 10px;
 }
 #header-container {
   color: #fff;
@@ -365,11 +359,21 @@ body {
   width: 220px;
 }
 
+.region-sidebar-first h1 {
+  font-size: 20px;
+  padding: 0 0 5px 0;
+}
+
+.region-sidebar-first .date-display-single, .region-sidebar-first .field-name-body {
+  font-size: 15px;
+  padding: 10px 0 10px 0;
+}
+
 .region-sidebar-first .block-title {
   display: none;
 }
 
-.region-sidebar-first a {
+.region-sidebar-second a, .region-sidebar-second a:visited, .region-sidebar-first a, .region-sidebar-first a:visited {
   color: #7e4d97;
 }
 
@@ -387,11 +391,16 @@ body {
 }
 
 ul.nice-menu {
-  padding-top: 31px;
+  padding-top: 30px;
+  font-family: helvetica, arial, sans-serif;
 }
 
 ul.nice-menu li a {
   color: #fff;
+}
+
+ul.nice-menu li a:hover {
+  opacity: .6;
 }
 
 .field-type-text-with-summary tr {
@@ -430,4 +439,13 @@ ul.nice-menu li a {
   color: #333;
   border-bottom: none;
   background: #f6f5f7;
+  font-family: helvetica, arial, sans-serif;
+}
+
+p {
+  font-family: helvetica, arial, sans-serif;
+}
+
+h1#page-title {
+  display: none;
 }
