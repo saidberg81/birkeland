@@ -313,7 +313,11 @@ ul.nice-menu-right a, ul.nice-menu-right ul a {
 
 .navigation ul li a:hover {
   background-color: #FFF;
-color: #000;
+  color: #000;
+}
+
+.navigation ul li a active {
+  text-decoration: underline !important;
 }
 
 /* Birkeland */
@@ -327,9 +331,18 @@ body {
   background-image: url('../images/graphic-bg.png');
   background-repeat: no-repeat;
   background-position: 90% 0px;
+  padding-top: 0;
 }
 
-#header-container,
+#header-container {
+  background: #7e4d97;
+  position: fixed;
+  color: #fff;
+  width: 918px;
+  top: 0;
+  z-index: 2;
+}
+
 #page  {
   background: none;
 }
@@ -338,9 +351,6 @@ body {
   background: #333;
   opacity: .8;
   padding: 20px 10px 10px 10px;
-}
-#header-container {
-  color: #fff;
 }
 
 .region-sidebar-first,
@@ -448,4 +458,9 @@ p {
 
 h1#page-title {
   display: none;
+}
+
+#content-column {
+  z-index: 1;
+  padding-top: 80px;
 }
