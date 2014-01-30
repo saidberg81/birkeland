@@ -370,8 +370,12 @@ body {
 }
 
 .region-sidebar-first h1 {
-  font-size: 20px;
+  font-size: 16px;
   padding: 0 0 5px 0;
+}
+
+.region-sidebar-first {
+  line-height: 1.2;
 }
 
 .region-sidebar-first .date-display-single, .region-sidebar-first .field-name-body {
@@ -460,12 +464,15 @@ h1#page-title {
   display: none;
 }
 
-#content-column {
+#content-column, #box-os_news_latest-page {
   z-index: 1;
   padding-top: 80px;
 }
 
-#boxes-box-os_pages_section_nav
- {
-  padding-top: 49px;
+#boxes-box-os_pages_section_nav {
+  padding-top: 82px;
+}
+
+.biblio-title a, .biblio-title-chicago a, a, a:visited {
+  color: #7e4d97;
 }
