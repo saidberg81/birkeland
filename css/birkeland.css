@@ -476,3 +476,7 @@ h1#page-title {
 .biblio-title a, .biblio-title-chicago a, a, a:visited {
   color: #7e4d97;
 }
+
+#powerby-login {
+  display: none;
+}
