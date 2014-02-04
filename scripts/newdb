@@ -1,0 +1,6 @@
+#!/bin/bash
+
+scp havanna.uib.no:/home/sbe004/latest.sql .
+drush sql-cli < latest.sql -v
+drush vset purl_base_domain http://os.local
+drush cc all
