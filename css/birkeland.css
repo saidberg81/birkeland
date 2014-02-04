@@ -313,11 +313,7 @@ ul.nice-menu-right a, ul.nice-menu-right ul a {
 
 .navigation ul li a:hover {
   background-color: #FFF;
-  color: #000;
-}
-
-.navigation ul li a active {
-  text-decoration: underline !important;
+color: #000;
 }
 
 /* Birkeland */
@@ -331,18 +327,9 @@ body {
   background-image: url('../images/graphic-bg.png');
   background-repeat: no-repeat;
   background-position: 90% 0px;
-  padding-top: 0;
 }
 
-#header-container {
-  background: #7e4d97;
-  position: fixed;
-  color: #fff;
-  width: 918px;
-  top: 0;
-  z-index: 2;
-}
-
+#header-container,
 #page  {
   background: none;
 }
@@ -351,6 +338,9 @@ body {
   background: #333;
   opacity: .8;
   padding: 20px 10px 10px 10px;
+}
+#header-container {
+  color: #fff;
 }
 
 .region-sidebar-first,
@@ -463,6 +453,7 @@ p {
 h1#page-title {
   display: none;
 }
+<<<<<<< HEAD
 
 #content-column, #box-os_news_latest-page {
   z-index: 1;
@@ -483,3 +474,5 @@ h1#page-title {
 }
 =======
 >>>>>>> parent of f8a97a6... fixed sticky bug in sidebar
+=======
+>>>>>>> parent of d96b7d5... made header sticky at top
