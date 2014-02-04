@@ -468,6 +468,7 @@ h1#page-title {
   z-index: 1;
   padding-top: 80px;
 }
+<<<<<<< HEAD
 
 #boxes-box-os_pages_section_nav {
   padding-top: 82px;
@@ -480,3 +481,5 @@ h1#page-title {
 #powerby-login {
   display: none;
 }
+=======
+>>>>>>> parent of f8a97a6... fixed sticky bug in sidebar
