@@ -453,13 +453,11 @@ p {
 h1#page-title {
   display: none;
 }
-<<<<<<< HEAD
 
 #content-column, #box-os_news_latest-page {
   z-index: 1;
   padding-top: 80px;
 }
-<<<<<<< HEAD
 
 #boxes-box-os_pages_section_nav {
   padding-top: 82px;
@@ -472,7 +470,3 @@ h1#page-title {
 #powerby-login {
   display: none;
 }
-=======
->>>>>>> parent of f8a97a6... fixed sticky bug in sidebar
-=======
->>>>>>> parent of d96b7d5... made header sticky at top
