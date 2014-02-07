@@ -1,4 +1,53 @@
-@import url("http://fonts.googleapis.com/css?family=Headland+One");
+@import url('//fonts.googleapis.com/css?family=Arvo:400,700');
+
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2014 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Moretype
+ * License URL: http://www.fontspring.com/fflicense/moretype
+ *
+ *
+ */
+
+@font-face {
+    font-family: 'alwyn_new_rgbold';
+    src: url('../fonts/AlwynNew-Bd-webfont.eot');
+    src: url('../fonts/AlwynNew-Bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AlwynNew-Bd-webfont.woff') format('woff'),
+         url('../fonts/AlwynNew-Bd-webfont.ttf') format('truetype'),
+         url('../fonts/AlwynNew-Bd-webfont.svg#alwyn_new_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alwyn_new_rgregular';
+    src: url('../fonts/AlwynNew-Rg-webfont.eot');
+    src: url('../fonts/AlwynNew-Rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AlwynNew-Rg-webfont.woff') format('woff'),
+         url('../fonts/AlwynNew-Rg-webfont.ttf') format('truetype'),
+         url('../fonts/AlwynNew-Rg-webfont.svg#alwyn_new_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 
 /* D6 retro css for older themes */
 #columns {padding:0 10px;}
@@ -9,8 +58,8 @@
 #page {
   background: #2f341f;
   color:#37352B;
-  font-family: georgia, serif;
-  }
+  font-family: verdana, sans-serif;
+}
 
 .sidebar {
   color: #ddd;
@@ -53,7 +102,7 @@ h1#page-title {
 .region-sidebar-first h2.block-title,
 .region-sidebar-first #block-os-primary-menu li a {
   color: #50cae9;
-  font: 13px/normal "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+  font: 13px/normal Verdana,sans-serif;
   font-weight: normal;
   text-transform:uppercase;
   letter-spacing: .5px;
@@ -97,11 +146,11 @@ padding-bottom: 2000px;
 
 body.no-sidebars #page  {
   background:#fff;
-  }
+}
 
 p.copy a.poweredby {
   background-position: 0 -26px;
-  }
+}
 
 /* SIDEBAR ELEMENTS */
 
@@ -324,9 +373,14 @@ html {
 }
 
 body {
+  /* Fallback */ 
   background-image: url('../images/graphic-bg.png');
   background-repeat: no-repeat;
   background-position: 90% 0px;
+  /* CSS-gradient for bakgrunnen  */
+  background: url(../images/graphic-bg.png) right -120px top -120px no-repeat;
+  background: url(../images/graphic-bg.png) right -120px top -120px no-repeat,
+                  linear-gradient(to bottom, #824f9c, #231f20) left;
 }
 
 #header-container,
@@ -396,7 +450,6 @@ body {
 
 ul.nice-menu {
   padding-top: 30px;
-  font-family: helvetica, arial, sans-serif;
 }
 
 ul.nice-menu li a {
@@ -443,24 +496,15 @@ ul.nice-menu li a:hover {
   color: #333;
   border-bottom: none;
   background: #f6f5f7;
-  font-family: helvetica, arial, sans-serif;
-}
-
-p {
-  font-family: helvetica, arial, sans-serif;
-}
-
-h1#page-title {
-  display: none;
 }
 
 #content-column, #box-os_news_latest-page {
   z-index: 1;
-  padding-top: 80px;
+  padding-top: 10px;
 }
 
 #boxes-box-os_pages_section_nav {
-  padding-top: 82px;
+  padding-top: 30px;
 }
 
 .biblio-title a, .biblio-title-chicago a, a, a:visited {
@@ -470,3 +514,259 @@ h1#page-title {
 #powerby-login {
   display: none;
 }
+
+
+body {
+   font-family: Verdana;
+   color: #14272d;
+   font-size: 11px;
+}
+
+h1,h2,h3,h4,h5 {
+   font-family: Arvo, Verdana;
+   font-weight: 400;
+   padding-bottom: 0.5em;
+}
+
+body, p, ul, l {
+  font-family: Verdana;
+}
+
+#header-container, #footer, #page {
+   font-family: Verdana;
+ //  padding:  0px;
+ //  padding-left: 10px;
+}
+
+#header-container {
+  padding: 0px;
+  padding-left: 10px;
+}
+
+
+
+#block-os-primary-menu {
+   background: url(../images/banner-right.png);
+   background-position: bottom right;
+   background-size: 100%;}
+
+#header-panels .region-inner {
+   padding-top: 0px;
+}
+
+#boxes-box-site_logo {
+   width: 240px;
+}
+
+/* Nyheter i venstremarg */
+
+/* Hoved-overskrift, mangler */
+.region-sidebar-first h1 {
+   font-family: alwyn_new_rgbold;
+   font-size: 18px;
+   margin-bottom: 1em;
+}
+
+.region-sidebar-first .node-header h1 {
+   font-family: Arvo;
+   font-size: 16px;
+   margin-bottom: 4px;
+   color: #14272d;
+}
+
+.region-sidebar-first .node-header h1 a {
+   color: #14272d;
+}
+
+.region-sidebar-first .node-header h1 a {
+   color: #14272d;
+}
+
+.region-sidebar-first .date-display-single, .region-sidebar-first .field-name-body {
+  font-family: Arvo;
+  font-size: 13px;
+}
+
+.region-sidebar-first {
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+
+
+/* Footer. */
+#footer {
+   background-color: #433d54;
+   opacity: 0.9;
+}
+
+#footer p {
+   font-family: alwyn_new_rgregular;
+   font-size: 11px;
+}
+
+#footer img {
+   width: 75%;
+   height: 75%
+}
+
+/* Forside */
+
+/* Ingress i Arvo. Ikkje tagga opp, så bruk første setning. */
+.front h1,h2,h3,h4,h5 + p {
+  font-family: Arvo, Verdana;
+  font-size: 12px;
+}
+
+.front .links.inline a:before { 
+  content: "…";
+}
+
+.front .links.inline a {
+   font-family: Verdana;
+   font-size: 9px;
+   text-transform: uppercase;
+   color: #7622a0;
+}
+
+.front .item-list .featured-links > li {
+   height: 100px;
+   position: relative;
+}
+
+
+.front .item-list .featured-links > li h1 {
+   position: absolute;
+   left: 110px;
+   
+}
+
+.front .item-list .featured-links > li h1 a {
+   color: #7622a0;
+}
+
+.front .item-list .featured-links > li img {
+   position: absolute;
+   top: 0px;
+}
+.front .item-list .featured-links .links{
+   position: absolute;
+   top: 80px;
+   left: 110px;
+}
+.front .item-list .featured-links > li {
+}
+
+
+.not-front .region-sidebar-first {
+  width: 222px;
+}
+
+
+.region-sidebar-first .region-inner {
+   //    width: 325px;
+//    background-color: #f6f5f7;
+   background: linear-gradient(to bottom, #ffffff, #f6f5f7);
+   padding-left: 15px;
+}
+
+#content-panels {
+  padding-left: 15px;
+}
+
+
+/* Toppmeny */
+ul#nice-menu-primary-menu {
+   //display: table;
+   // width: 90%;
+   padding-top: 40px;
+}
+
+ul#nice-menu-primary-menu > li {
+   // display: table-cell;
+   display: inline-block;
+   padding-right: 20px;
+   padding-left: 10px;
+   text-align: center;
+   //float: none;	     
+}
+
+#nice-menu-primary-menu li > a {
+   display: block;
+   font-family: alwyn_new_rgregular;
+   font-size: 16px;
+   color: #9b76ad;
+}
+
+
+#nice-menu-primary-menu li > a.active {
+  color: #d4d3d1;
+}
+
+
+h1#page-title {
+   display: block;
+   margin-bottom: 0px;
+   margin-top: 20px;
+   font-style: normal;
+   font-family: Verdana;
+   font-size: 19px;
+} 
+
+
+/* Tabeller */
+
+th {
+  text-transform: uppercase;
+  font-family: Verdana;
+  color: #911acc;
+}
+
+/* Sidemeny */
+
+.section-nav {
+   font-family: verdana;
+}
+
+.section-nav a {
+   background-color: inherit;
+}
+
+.section-nav ul.menu li {
+   background-color: inherit;
+}
+
+.section-nav ul.menu li a {
+   background-color: inherit;
+   color: #b8b3b3;
+   font-family: verdana;
+   font-size: 11px;
+}
+
+.section-nav .active-trail {
+   color: #911acc !important;
+}
+
+.section-nav .menu-depth-1 > a {
+   background-color: inherit !important;
+   color: inherit !important;
+}
+
+.section-nav li.menu-depth-1 > a {
+  /*   display: none !important; */
+}
+
+.section-nav {
+
+}
+
+.section-nav .expanded.menu-depth-2,  .section-nav .expanded.menu-depth-2 > a  {
+   background-color: inherit !important;
+   color: inherit;
+}
+
+.section-nav:hover {
+   color: black;
+}
+
+
