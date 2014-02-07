@@ -13,9 +13,6 @@
  *
  * (c) 2010-2014 Fontspring
  *
- *
- *
- *
  * The fonts included are copyrighted by the vendor listed below.
  *
  * Vendor:      Moretype
@@ -79,8 +76,7 @@ h2, h3, h4 {
   margin-bottom: 0;
   margin-top: 1em;
   font-weight:normal;
-  font-style: italic;
-  }
+}
 
 h1#page-title {
   margin-top: 0;
@@ -98,16 +94,6 @@ h1#page-title {
   color: #999;
   }
 
-.region-sidebar-second h2.block-title,
-.region-sidebar-first h2.block-title,
-.region-sidebar-first #block-os-primary-menu li a {
-  color: #50cae9;
-  font: 13px/normal Verdana,sans-serif;
-  font-weight: normal;
-  text-transform:uppercase;
-  letter-spacing: .5px;
-  border-bottom:1px solid #c6c7c2;
-  }
 
 .region-sidebar-second li a,
 .region-sidebar-first li a {
@@ -428,7 +414,11 @@ body {
 }
 
 .region-sidebar-first .block-title {
-  display: none;
+   color: #7622a0;
+   font-family: alwyn_new_rgbold, Verdana;
+   font-size: 18px;
+   border: none;
+
 }
 
 .region-sidebar-second a, .region-sidebar-second a:visited, .region-sidebar-first a, .region-sidebar-first a:visited {
