@@ -642,16 +642,21 @@ body, p, ul, l {
    top: -8px;
    left: 0px;
    float: left;
+   width: 100px;
+   height: 100px;
 }
 
-.front .featured-links article p  {
+.front .featured-links article p,  
+.front .featured-links article div {
    font-family: Arvo, Verdana;
    font-weight: 400;
    font-size: 13px;
    color: #604573;
 }
 
-.front .item-list .featured-links article .field-name-body {
+.front .item-list .featured-links article .field-name-body,
+.front .item-list .featured-links article .field-name-field-lead
+  {
    position: absolute;
    left: 120px;
    top: 2em;
