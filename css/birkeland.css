@@ -808,4 +808,10 @@ th {
    color: black;
 }
 
+span.description {
+   display:none;
+}
 
+.node-page span.description {
+display:block;
+}
