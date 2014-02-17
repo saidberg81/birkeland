@@ -162,8 +162,7 @@
   		<p>Department of Physics and Technology, University of Bergen</p>
   	</div>
   	<div id="birk-info">
-  		<p>The Birkeland Centre for Space and Science, 
-  			is a cooperative effort between the University of Bergen, NTNU and UNIS</p>
+  		<p>The Birkeland Centre for Space Science is a cooperative effort between the University of Bergen, NTNU and UNIS</p>
   	</div>
   	<div id="bottom-logos">
 	  	<div class="logo">
