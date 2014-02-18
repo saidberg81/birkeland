@@ -415,7 +415,7 @@ body {
 
 .region-sidebar-first .block-title {
    color: #7622a0;
-   font-family: alwyn_new_rgbold, Verdana;
+   font-family: alwyn_new_rgbold, Verdana,Helvetica,sans-serif;
    font-size: 18px;
    font-weight: normal;
    border: none;
@@ -457,7 +457,15 @@ ul.nice-menu li a:hover {
 #birk-colophon .logo {
   float: left;
   padding: 0 5px 0 5px;
+}q
+#birk-colophon .logo img {
+  float: right;
 }
+#bottom-logos {
+  float: right;
+/*  padding-right: 20px;*/
+}
+
 
 #dep-info, #birk-info {
   color: #868588;
@@ -469,13 +477,11 @@ ul.nice-menu li a:hover {
   padding: 0 20px 0 0;
 }
 
-#bottom-logos {
-  float: right;
-}
-
 #boxes-box-os_pages_section_nav {
   border: none;
 }
+
+
 
 #boxes-box-os_pages_section_nav li.menu-depth-2 {
   background: none !important;
@@ -486,6 +492,9 @@ ul.nice-menu li a:hover {
   color: #333;
   border-bottom: none;
   background: #f6f5f7;
+  padding-left: 0px; 
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 #content-column, #box-os_news_latest-page {
@@ -507,23 +516,23 @@ ul.nice-menu li a:hover {
 
 
 body {
-   font-family: Verdana;
+   font-family: Verdana,Helvetica,sans-serif;
    color: #14272d;
    font-size: 11px;
 }
 
 h1,h2,h3,h4,h5 {
-   font-family: Arvo, Verdana;
+   font-family: Arvo, Verdana,Helvetica,sans-serif;
    font-weight: 400;
    padding-bottom: 0.5em;
 }
 
 body, p, ul, l {
-  font-family: Verdana;
+  font-family: Verdana,Helvetica,sans-serif;
 }
 
 #header-container, #footer, #page {
-   font-family: Verdana;
+   font-family: Verdana,Helvetica,sans-serif;
 }
 
 #header-container {
@@ -545,7 +554,66 @@ body, p, ul, l {
    width: 250px;
 }
 
-/* Nyheter i venstremarg */
+/* Tricky to get the image and image caption correctly aligned. Add padding for images
+   within a p-block, images in a table do not need the extra padding.
+*/
+
+.file-os-files-large, 
+.file-os-files-xlarge, 
+.file-os-files-xxlarge, 
+.file-os-files-small, 
+.file-os-files-medium {
+        padding-right: 0px;
+        padding-top:10px;
+        padding-bottom: 0px;
+}
+
+.lt-ie9		      span[style*="FLOAT: RIGHT;"] .file-os-files-large, 
+.lt-ie9		      span[style*="FLOAT: RIGHT;"] .file-os-files-xlarge, 
+.lt-ie9		      span[style*="FLOAT: RIGHT;"] .file-os-files-xxlarge, 
+.lt-ie9		      span[style*="FLOAT: RIGHT;"] .file-os-files-small, 
+.lt-ie9		      span[style*="FLOAT: RIGHT;"] .file-os-files-medium,
+span[style*="float: right;"] .file-os-files-large, 
+span[style*="float: right;"] .file-os-files-xlarge, 
+span[style*="float: right;"] .file-os-files-xxlarge, 
+span[style*="float: right;"] .file-os-files-small, 
+span[style*="float: right;"] .file-os-files-medium {
+                    padding-right: 0px;
+                    padding-left: 0px;
+                    padding-bottom: 0px;
+}	
+
+
+.content-inner p .image-container {
+   padding-top: 20px;
+   padding-bottom: 20px;
+   display: block;
+}
+
+.content-inner .image-container img {
+  display: block;
+  float: inherit !important;
+}
+
+.content-inner .image-container span.description {
+   display: none;
+}
+
+.content-inner p .image-container  span.description {
+   display: block;
+   font-style: italic;
+}
+
+.content-inner p span[style*="float: right;"] .image-container {
+   padding-left: 20px;
+}
+
+.content-inner p span[style*="float: left;"] .image-container {
+   padding-right: 20px;
+}
+
+/*  Nyheter i venstremarg */
+		    
 
 /* Hoved-overskrift, mangler */
 .region-sidebar-first h1 {
@@ -575,7 +643,7 @@ body, p, ul, l {
 }
 
 .region-sidebar-first .field-name-body {
-  font-family: Verdana;
+  font-family: Verdana,Helvetica,sans-serif;
   font-size: 11px;
 }
 
@@ -600,12 +668,36 @@ body, p, ul, l {
    height: 75%
 }
 
+.bottom-logos img {
+   float: right;
+}
+
 /* Forside */
 
 /* Ingress i Arvo. Ikkje tagga opp, så bruk første setning. */
 .front h1,h2,h3,h4,h5 + p {
-  font-family: Arvo, Verdana;
+  font-family: Arvo, Verdana,Helvetica,sans-serif;
   font-size: 14px;
+  color: #7622a0;
+}
+
+
+.front h2.block-title {
+   font-size: 18px;
+   font-wight: normal;
+}
+
+
+.front .content-inner div{
+   font-family: Arvo, Verdana,Helvetica,sans-serif;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 1.3em;
+}
+
+
+.front span.description {
+   display: none !important;
 }
 
 .content-left.content-right .at-panel .region.region-content-first {
@@ -618,7 +710,7 @@ body, p, ul, l {
 }
 
 .front .links.inline a {
-   font-family: Verdana;
+   font-family: Verdana,Helvetica,sans-serif;
    font-size: 9px;
    text-transform: uppercase;
    color: #7622a0;
@@ -648,15 +740,14 @@ body, p, ul, l {
 
 .front .featured-links article p,  
 .front .featured-links article div {
-   font-family: Arvo, Verdana;
+   font-family: Arvo, Verdana,Helvetica,sans-serif;
    font-weight: 400;
    font-size: 13px;
    color: #604573;
 }
 
 .front .item-list .featured-links article .field-name-body,
-.front .item-list .featured-links article .field-name-field-lead
-  {
+.front .item-list .featured-links article .field-name-field-lead {
    position: absolute;
    left: 120px;
    top: 2em;
@@ -665,7 +756,7 @@ body, p, ul, l {
 
 .front .item-list .featured-links .links{
    position: absolute;
-   top: 100px;
+   top: 85px;
    left: 120px;
 }
 .front .item-list .featured-links > li {
@@ -686,6 +777,7 @@ body, p, ul, l {
 
 #content-panels {
   padding-left: 15px;
+  padding-right: 13px;
 }
 
 
@@ -748,7 +840,7 @@ h1#page-title {
    margin-bottom: 0px;
    margin-top: 20px;
    font-style: normal;
-   font-family: Verdana;
+   font-family: Verdana,Helvetica,sans-serif;
    font-size: 19px;
 } 
 
@@ -757,14 +849,14 @@ h1#page-title {
 
 th {
   text-transform: uppercase;
-  font-family: Verdana;
+  font-family: Verdana,Helvetica,sans-serif;
   color: #911acc;
 }
 
 /* Sidemeny */
 
 .section-nav {
-   font-family: verdana;
+   font-family:  Verdana,Helvetica,sans-serif;;
 }
 
 .section-nav a {
@@ -778,7 +870,7 @@ th {
 .section-nav ul.menu li a {
    background-color: inherit;
    color: #b8b3b3;
-   font-family: verdana;
+   font-family:  Verdana,Helvetica,sans-serif;;
    font-size: 11px;
 }
 
@@ -806,12 +898,4 @@ th {
 
 .section-nav:hover {
    color: black;
-}
-
-span.description {
-   display:none;
-}
-
-.node-page span.description {
-display:block;
 }
