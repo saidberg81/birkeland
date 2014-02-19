@@ -22,19 +22,19 @@
  */
 
 @font-face {
-    font-family: 'alwyn_new_rgbold';
+    font-family: 'alwyn';
     src: url('../fonts/AlwynNew-Bd-webfont.eot');
     src: url('../fonts/AlwynNew-Bd-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/AlwynNew-Bd-webfont.woff') format('woff'),
          url('../fonts/AlwynNew-Bd-webfont.ttf') format('truetype'),
          url('../fonts/AlwynNew-Bd-webfont.svg#alwyn_new_rgbold') format('svg');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'alwyn_new_rgregular';
+    font-family: 'alwyn';
     src: url('../fonts/AlwynNew-Rg-webfont.eot');
     src: url('../fonts/AlwynNew-Rg-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/AlwynNew-Rg-webfont.woff') format('woff'),
@@ -415,10 +415,10 @@ body {
 
 .region-sidebar-first .block-title {
    color: #7622a0;
-   font-family: alwyn_new_rgbold, Verdana,Helvetica,sans-serif;
+   font-family: alwyn, Verdana,Helvetica,sans-serif;
    font-size: 18px;
-   font-weight: normal;
    border: none;
+   margin-top: 26px;
 }
 
 .region-sidebar-second a, .region-sidebar-second a:visited, .region-sidebar-first a, .region-sidebar-first a:visited {
@@ -617,7 +617,7 @@ span[style*="float: right;"] .file-os-files-medium {
 
 /* Hoved-overskrift, mangler */
 .region-sidebar-first h1 {
-   font-family: alwyn_new_rgbold;
+   font-family: alwyn;
    font-size: 18px;
    margin-bottom: 1em;
 }
@@ -659,7 +659,7 @@ span[style*="float: right;"] .file-os-files-medium {
 }
 
 #footer p {
-   font-family: alwyn_new_rgregular;
+   font-family: alwyn;
    font-size: 11px;
 }
 
@@ -815,14 +815,14 @@ ul#nice-menu-primary-menu > li:nth-child(1),  ul#nice-menu-primary-menu > li:nth
 
 #nice-menu-primary-menu li > a {
    display: block;
-   font-family: alwyn_new_rgregular;
+   font-family: alwyn;
    font-size: 16px;
    color: #9b76ad;
 }
 
 #nice-menu-secondary-menu li > a {
    display: block;
-   font-family: alwyn_new_rgregular;
+   font-family: alwyn;
    font-size: 11px;
    text-transform:uppercase;
    color: #cb92e7;
