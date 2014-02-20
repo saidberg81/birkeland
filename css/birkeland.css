@@ -556,9 +556,7 @@ body, p, ul, l {
    width: 250px;
 }
 
-/* Tricky to get the image and image caption correctly aligned. Add padding for images
-   within a p-block, images in a table do not need the extra padding.
-*/
+/* Tricky to get the image and image caption correctly aligned. Add padding for images within a p-block, images in a table do not need the extra padding. */
 
 .file-os-files-large, 
 .file-os-files-xlarge, 
@@ -606,11 +604,11 @@ span[style*="float: right;"] .file-os-files-medium {
    font-style: italic;
 }
 
-.content-inner p span[style*="float: right;"] .image-container {
+/* These should really be span[style="float: right"], however the css-aggregator removes the space and makes the rule void. */ 
+.content-inner p span[style$='right;'] .image-container {
    padding-left: 20px;
 }
-
-.content-inner p span[style*="float: left;"] .image-container {
+.content-inner p span[style$='left;'] .image-container {
    padding-right: 20px;
 }
 
