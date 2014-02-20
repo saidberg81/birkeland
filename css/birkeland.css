@@ -456,8 +456,9 @@ ul.nice-menu li a:hover {
 
 #birk-colophon .logo {
   float: left;
+  text-align: right;
   padding: 0 5px 0 5px;
-}q
+}
 #birk-colophon .logo img {
   float: right;
 }
@@ -639,7 +640,7 @@ span[style*="float: right;"] .file-os-files-medium {
 
 .region-sidebar-first .date-display-single{
   font-family: Arvo;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .region-sidebar-first .field-name-body {
