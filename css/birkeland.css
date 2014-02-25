@@ -602,6 +602,7 @@ span[style*="float: right;"] .file-os-files-medium {
 .content-inner p .image-container  span.description {
    display: block;
    font-style: italic;
+   width: 180px;
 }
 
 /* These should really be span[style="float: right"], however the css-aggregator removes the space and makes the rule void. */ 
