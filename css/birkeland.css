@@ -445,7 +445,7 @@ ul.nice-menu li a:hover {
 }
 
 #dep-info {
-  padding: 0 20px 0 0;
+  margin-left: 16px;
 }
 
 #boxes-box-os_pages_section_nav {
@@ -510,11 +510,11 @@ body, p, ul, l {
 
    padding: 0px;
    padding-left: 10px;
-
    background: url(../images/banner-right.png);
    background-position: bottom right;
    background-size: 690px 100%;
    background-repeat: no-repeat;
+   background-color: #814f9a;
 }
 
 
@@ -879,4 +879,31 @@ th {
 
 .section-nav:hover {
    color: black;
+}
+
+.region-sidebar-first .more-link {
+  margin-right: 10px;
+}
+
+.block-content h3, .block-content h3 span {
+  font-family: verdana;
+  font-weight: bold;
+  color: #911acc !important;
+}
+
+.sidebar-second #main-content-header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.region-sidebar-second .region-inner {
+  padding-right: 20px;
+}
+
+.region-sidebar-second .more-link {
+  margin-right: 0;
+}
+
+.node-content {
+  margin-top: 14px;
 }
