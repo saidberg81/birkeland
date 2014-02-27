@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Arvo:400,700');
 
-
 /*
  * Web Fonts from fontspring.com
  *
@@ -119,22 +118,18 @@ p.copy {
 .region-sidebar-second {
   font-size: .8em;
   line-height: 1.1em;
-background:#000;
-  }
+  background:#000;
+}
  
- #columns {
-	overflow:hidden;
-	background:#FFF;
-	padding:0;
+#columns {
+  overflow:hidden;
+  background:#fff;
+  padding:0;
 } 
   
-  #content-column, .region-sidebar-first, .region-sidebar-second {
-margin-bottom: -2000px;
-padding-bottom: 2000px;
-}
-
-body.no-sidebars #page  {
-  background:#fff;
+#content-column, .region-sidebar-first, .region-sidebar-second {
+  margin-bottom: -2000px;
+  padding-bottom: 2000px;
 }
 
 p.copy a.poweredby {
@@ -187,30 +182,20 @@ body.header-main .region-header-second, body.header-main-right .region-header-se
 }
 
 #header-container h1, #header-container h2, #header-container p {
-    font-size: 23px;
-    line-height: 28px;
-    font-weight:normal;
-    color:#fff;
-    font-family:'Headland One', serif;
-    margin: 0;
-    }
-    
-    #header-container h1 {
+  font-size: 23px;
+  line-height: 28px;
+  font-weight:normal;
+  color:#fff;
+  font-family:'Headland One', serif;
+  margin: 0;
+}
 
-    text-transform:uppercase;
-    }
-
-#header-container h2 {
-  font-size: 16px;
-  line-height: 18px;
-  font-style:normal;
-  }
 
 #header-container p {
   font-size: 11px;
   line-height: 18px;
   margin-bottom: 5px;
-  }
+}
 
 #header-container h1 a, #header-container h1 a:visited {
     color:#a3a18c;
@@ -374,12 +359,6 @@ body {
 #page  {
   background: none;
 }
-
-#footer {
-  background: #333;
-  opacity: .8;
-  padding: 20px 10px 10px 10px;
-}
 #header-container {
   color: #fff;
 }
@@ -471,7 +450,7 @@ ul.nice-menu li a:hover {
 
 #dep-info, #birk-info {
   color: #868588;
-  width: 220px;
+  width: 210px;
   float: left;
 }
 
@@ -538,6 +517,7 @@ body, p, ul, l {
 }
 
 #header-container {
+
    padding: 0px;
    padding-left: 10px;
 
@@ -583,7 +563,6 @@ span[style*="float: right;"] .file-os-files-medium {
                     padding-bottom: 0px;
 }	
 
-
 .content-inner p .image-container {
    padding-top: 20px;
    padding-bottom: 20px;
@@ -614,7 +593,6 @@ span[style*="float: right;"] .file-os-files-medium {
 
 /*  Nyheter i venstremarg */
 		    
-
 /* Hoved-overskrift, mangler */
 .region-sidebar-first h1 {
    font-family: alwyn;
@@ -651,13 +629,18 @@ span[style*="float: right;"] .file-os-files-medium {
    float: right;
 }
 
+.region-sidebar-first .more-link {
+   display: inline-block;
+   padding-right: 10px;
+}
+
 
 /* Footer. */
 #footer {
    background-color: #433d54;
    opacity: 0.9;
+   padding: 20px 10px 10px 23px;
 }
-
 #footer p {
    font-family: alwyn;
    font-size: 11px;
@@ -704,10 +687,15 @@ span[style*="float: right;"] .file-os-files-medium {
   border-right: none;
 }
 
+#content {
+   padding-left: 25px;
+}
+
 
 .front .links.inline a:before { 
   content: "…";
 }
+
 
 .front .links.inline a {
    font-family: Verdana,Helvetica,sans-serif;
