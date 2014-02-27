@@ -681,6 +681,7 @@ span[style*="float: right;"] .file-os-files-medium {
   margin-left: 8px;
 }
 
+.front #content-column .content-inner, 
 .page-node #content-column .content-inner {
   padding-left: 20px;
 }
