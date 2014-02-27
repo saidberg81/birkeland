@@ -78,16 +78,6 @@ h2, h3, h4 {
   font-weight:normal;
 }
 
-h1#page-title {
-  margin-top: 0;
-  margin-bottom: 1em;
-  font-size:1.3em;
-  font-style: italic;
-  font-weight:normal;
-  padding-left: 15px;
-  margin-left: 8px;
-}
-
 .links li {
   font-size: .8em;
 }
@@ -688,9 +678,12 @@ span[style*="float: right;"] .file-os-files-medium {
 }
 
 #content {
-   padding-left: 25px;
+  margin-left: 8px;
 }
 
+.page-node #content-column .content-inner {
+  padding-left: 20px;
+}
 
 .front .links.inline a:before { 
   content: "…";
@@ -764,11 +757,8 @@ span[style*="float: right;"] .file-os-files-medium {
 }
 
 #content-panels {
-  padding-left: 15px;
   padding-right: 13px;
 }
-
-
 
 
 /* Toppmeny */
@@ -827,6 +817,7 @@ h1#page-title {
    display: block;
    margin-bottom: 0px;
    margin-top: 20px;
+   margin-left: 8px;
    font-style: normal;
    font-family: Verdana,Helvetica,sans-serif;
    font-size: 19px;
