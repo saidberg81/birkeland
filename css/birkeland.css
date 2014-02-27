@@ -444,15 +444,9 @@ ul.nice-menu li a:hover {
   float: left;
 }
 
-#dep-info {
-  margin-left: 16px;
-}
-
 #boxes-box-os_pages_section_nav {
   border: none;
 }
-
-
 
 #boxes-box-os_pages_section_nav li.menu-depth-2 {
   background: none !important;
@@ -617,7 +611,7 @@ span[style*="float: right;"] .file-os-files-medium {
 
 .region-sidebar-first ul.links.inline > li {
    float: right;
-}
+}OA
 
 .region-sidebar-first .more-link {
    display: inline-block;
