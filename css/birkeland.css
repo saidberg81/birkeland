@@ -380,7 +380,7 @@ body {
 
 .region-sidebar-first .date-display-single, .region-sidebar-first .field-name-body {
   font-size: 15px;
-  padding: 10px 0 10px 0;
+  padding: 5px 0 10px 0;
 }
 
 .region-sidebar-first .block-title {
@@ -602,6 +602,8 @@ span[style*="float: right;"] .file-os-files-medium {
 .region-sidebar-first .date-display-single{
   font-family: Arvo;
   font-size: 12px;
+  padding: 0 0 0 0;
+  color: #808080;
 }
 
 .region-sidebar-first .field-name-body {
@@ -752,6 +754,8 @@ span[style*="float: right;"] .file-os-files-medium {
    padding-left: 15px;
 }
 
+
+
 #content-panels {
   padding-right: 13px;
 }
@@ -885,10 +889,12 @@ th {
   color: #911acc !important;
 }
 
+/*
 .sidebar-second #main-content-header h1 {
   margin: 0;
   padding: 0;
 }
+*/
 
 .region-sidebar-second .region-inner {
   padding-right: 20px;
@@ -896,6 +902,10 @@ th {
 
 .region-sidebar-second .more-link {
   margin-right: 0;
+}
+
+.region-sidebar-first .node-content {
+  margin-top: 0px;
 }
 
 .node-content {
