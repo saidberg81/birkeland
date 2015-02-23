@@ -355,13 +355,17 @@ body {
 
 .region-sidebar-first,
 .region-sidebar-second {
-  font-size: .8em;
-  line-height: 1.1em;
+  font-size: 13px;
+  font-family: Verdana;
 }
+
 
 .region-sidebar-second {
   background:#fff;
+  color: #49484b;
 }
+
+
 
 .region-sidebar-first {
   background: #f6f5f7;
@@ -391,9 +395,15 @@ body {
    margin-top: 26px;
 }
 
+	
 .region-sidebar-second a, .region-sidebar-second a:visited, .region-sidebar-first a, .region-sidebar-first a:visited {
-  color: #7e4d97;
+		       /*   color:  #7e4d97;  */
+   color: #49484b;
 }
+.region-sidebar-second h1 {
+   font-weight: bold;
+}
+
 
 #menu-bar, #menu-bar ul.nice-menu li a:active,
 #menu-bar ul.nice-menu li a:hover,
@@ -613,7 +623,7 @@ span[style*="float: right;"] .file-os-files-medium {
 
 .region-sidebar-first ul.links.inline > li {
    float: right;
-}OA
+}
 
 .region-sidebar-first .more-link {
    display: inline-block;
@@ -650,6 +660,14 @@ span[style*="float: right;"] .file-os-files-medium {
   color: #7622a0;
 }
 
+.front h2 {
+  font-family: Alwyn, Arvo, Verdana,Helvetica,sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #7622a0;
+}
+
+
 
 .front h2.block-title {
    font-size: 18px;
@@ -678,9 +696,66 @@ span[style*="float: right;"] .file-os-files-medium {
   margin-left: 8px;
 }
 
+
 .front #content-column .content-inner, 
 .page-node #content-column .content-inner {
-  padding-left: 20px;
+/*  padding-left: 0px;*/
+
+}
+
+/** Bio */ 
+
+.front #content-column .region-content-top .region-inner {
+  height:  300px; 
+/*  background-size: 80%;  */
+/*  height:280px; */
+  background-image: url(../images/aurora.gif) ;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  color: white;   
+  position: relative; 
+}
+
+/* Don't let contextual links mess up layout */
+.front #content-panels .contextual-links-region   {
+  position: static;
+}
+
+.front #content-column .region-content-top .region-inner .block-inner {
+   position: absolute; 
+   bottom: 20px;
+   left: 20px;
+}
+
+.front #content-column .region-content-top .region-inner h2  {
+  color: white;
+  font-family: Arvo, Verdana,Helvetica,sans-serif;
+  font-size: 24px; /* 26px */
+  font-weight: normal;
+}
+.front #content-column .region-content-top .region-inner p {
+  color: white;
+  font-family: Alwyn, Verdana,Helvetica,sans-serif;
+  font-size: 14px; /* 16px */ 
+}
+
+/** Forside, sidebar */
+
+.front .region-sidebar-second {
+   background-color: white;
+   background: linear-gradient(to bottom, #ffffff,  #c0b9c8 500px );
+}
+
+#block-boxes-os-news-latest:after {
+ content: '';
+ display: block;
+ border-bottom: 5px solid white;
+ margin-top: 10px;
+ margin-left:-40px; margin-right:-20px;
+}
+
+.sidebar-separator {
+  border: 10px solid cyan;
 }
 
 .front .links.inline a:before { 
@@ -695,48 +770,129 @@ span[style*="float: right;"] .file-os-files-medium {
    color: #7622a0;
 }
 
+/** Forside, event kalender */
+.front .item-list-upcoming li {
+     margin-top: 10px;
+}
+.front .item-list-upcoming .views-field-field-date .field-content ,
+.front .item-list-upcoming .upcoming-date a
+{
+     color: #7622a0;
+     font-weight: bold;
+     font-size: 12px;
+}
+.front .item-list-upcoming .views-field-field-date , 
+.front .item-list-upcoming .views-field-field-date .field-content,
+.front .item-list-upcoming .upcoming-date,
+.front .item-list-upcoming .views-field-title, 
+.front .item-list-upcoming .views-field-title .field-content {
+   display: inline;
+}
+
+
+
+.front .item-list-upcoming .views-field-title a {
+     color: #7622a0;
+}
+
+.front .item-list-upcoming .views-field-title a {
+     color: #7622a0;
+}
+
+
+
+/** Forside, featured links */
+
+.front .item-list ul.featured-links {
+  position: relative;
+  margin-right: -40px;
+  z-order:1;
+  float: left;
+}
+
 .front .item-list .featured-links li {
-   height: 120px;
+   width: 140px;
    position: relative;
+   float: left;
+   padding-left: 10px;
 }
 
 .front .item-list .featured-links article h1 {
-   position: absolute;
-   left: 120px;
+  padding-top:104px;
+  padding-bottom:2px;
 }
 .front .item-list .featured-links article  h1 a {
-   color: #7622a0;
+ //  color: #7622a0;
+  font-family: Alwyn, Arvo, Verdana,Helvetica,sans-serif;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .front .item-list .featured-links article img {
    position: absolute;
+   top: 0px;
    top: -8px;
    left: 0px;
-   float: left;
    width: 100px;
+   border: 1px solid yellow;
    height: 100px;
 }
 
+.front .content-inner {
+   margin-right: 340px;
+}
+
+.front .region-sidebar-second {
+   width: 340px; margin-left: -340px
+}
+
+
+.front .region-sidebar-second:before {
+   content:'';
+   width: 40px;
+   height: 1000px;
+   border-left: none;
+   border-top-right-radius: 40px 500px;
+   border-bottom-right-radius: 40px 500px;
+   display: inline-block;
+   box-sizing: border-box;
+   position: absolute;
+   background: white;
+   left:0; top:0;
+   z-order: 10;
+   color: white;
+}
+
+
+.front .region-sidebar-second {
+    box-sizing: border-box;
+    padding-left: 50px;
+    position: relative;
+}
+
+
+
+.front .featured-links .node-content {
+   margin-top: 4px;
+}
+
+
 .front .featured-links article p,  
 .front .featured-links article div {
-   font-family: Arvo, Verdana,Helvetica,sans-serif;
-   font-weight: 400;
+   font-family: Verdana,Helvetica,sans-serif;
    font-size: 13px;
-   color: #604573;
+   color: black;
 }
+
 
 .front .item-list .featured-links article .field-name-body,
 .front .item-list .featured-links article .field-name-field-lead {
-   position: absolute;
-   left: 120px;
-   top: 2em;
-
 }
 
 .front .item-list .featured-links .links{
-   position: absolute;
-   top: 85px;
-   left: 120px;
+ //  position: absolute;
+ //  top: 85px;
+ //   left: 120px;
 }
 .front .item-list .featured-links > li {
 }
@@ -746,9 +902,7 @@ span[style*="float: right;"] .file-os-files-medium {
   width: 222px;
 }
 
-
 .region-sidebar-first .region-inner {
-   /* width: 325px; */
    background-color: #f6f5f7;
    background: linear-gradient(to bottom, #ffffff, #f6f5f7);
    padding-left: 15px;
@@ -795,7 +949,7 @@ ul#nice-menu-primary-menu > li:nth-child(1),  ul#nice-menu-primary-menu > li:nth
    display: block;
    font-family: alwyn;
    font-size: 16px;
-   color: #9b76ad;
+   color: #aea7b2;
 }
 
 #nice-menu-secondary-menu li > a {
@@ -809,7 +963,7 @@ ul#nice-menu-primary-menu > li:nth-child(1),  ul#nice-menu-primary-menu > li:nth
 
 
 #nice-menu-primary-menu li > a.active, #nice-menu-secondary-menu li  {
-  color: #d4d3d1;
+  color: white;
 }
 
 
